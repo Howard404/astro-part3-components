@@ -1,6 +1,6 @@
 ---
-import Header from "../components/Header.astro";
-let topic = "Home page";
+import Navigation from "../components/Navigation.astro";
+let topic = "Contact";
 ---
 
 <html lang="en">
@@ -9,15 +9,15 @@ let topic = "Home page";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Contact</title>
     <style>
       body {
-        background: pink;
+        background: green;
       }
     </style>
   </head>
   <body>
-    <Header />
+    <Navigation />
     <h1>{topic}</h1>
   </body>
 </html>
